@@ -7,7 +7,7 @@
 }
 
 .dropdown{
-    width: 10%;
+    width: fit-content;
     margin: 7px 0px 0px 10px;
     display: inline-block;
 }
@@ -164,8 +164,12 @@ button, button:active, button:focus {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .anavbar-right-content{
+        width: 65%;
+    }
+
     .anavbar-right-faq{
-        width: 70%;
+        width: 60%;
     }
 
     .ul-products{
